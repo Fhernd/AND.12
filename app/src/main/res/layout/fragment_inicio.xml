@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="co.ortizol.fragments.InicioSesionFragment">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pin" />
+
+    <TextView
+        android:id="@+id/lblIndicadorSesionIniciadaComo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/indicador_aviso"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lblEmailSesionIniciada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.7"
+        android:layout_below="@id/lblIndicadorSesionIniciadaComo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/email_demo"
+        android:textColor="@android:color/black"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/lblAlertasSeguridad"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lblEmailSesionIniciada"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/indicador_zonas"
+        android:textSize="17sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabConfigurarContactosAlerta"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_config" />
+
+</RelativeLayout>

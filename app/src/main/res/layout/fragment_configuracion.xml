@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".fragments.ConfiguracionFragment">
+
+    <TextView
+        android:id="@+id/lblTituloConfiguracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/titulo_configuracion"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/lvwContactos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</android.widget.LinearLayout>

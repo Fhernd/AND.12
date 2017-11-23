@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273529068925",
+    "project_id": "firebase-gplus-connect"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273529068925:android:fb92b6395ab29718",
+        "android_client_info": {
+          "package_name": "co.ortizol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273529068925-u586bolj8g0harbhqitsb45d9q94ch29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.ortizol",
+            "certificate_hash": "b27bced9efefcc466eab5eda724d4fccc9ca4e9e"
+          }
+        },
+        {
+          "client_id": "273529068925-jspo2e5ae9plg0in88a84al987n6mdrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANr1Ai0B81konVBwjEN9IFvkvB8x41s5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

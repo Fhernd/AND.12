@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Asistente de Seguridad</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="indicador_inicio_sesion">Inicia sesión con tus redes sociales para empezar</string>
+    <string name="bienvenida">Bienvenido a tu Asistente de Seguridad</string>
+
+    <string name="facebook_app_id">1801097313514059</string>
+    <string name="fb_login_protocol_scheme">fb1801097313514059</string>
+    <string name="email_demo">juanortizu@gmail.com</string>
+    <string name="indicador_aviso">Has ingresado en Asistente de Seguridad como:</string>
+    <string name="indicador_zonas">Desde este momento podrás ser alertado al ingresar, permanecer y salir de zonas inseguras</string>
+    <string name="juan_ortiz_urbano">Juan Ortiz Urbano</string>
+    <string name="demo_numero">3102940501</string>
+    <string name="notificar_a">Se notificará a %1$s en caso de emergencia</string>
+    <string name="no_notificar_a">Ya no se notificará a %1$s en caso de emergencia</string>
+    <string name="titulo_configuracion">Selecciona los contactos a los que\ndeseas notificar en caso de emergencia</string>
+    <string name="inicio_sesion">Inicio Sesión</string>
+    <string name="inicio_servicio_alertas">Inicio del servicio de alertas de seguridad</string>
+    <string name="ingreso_zona_insegura">Has ingresado en una zona insegura</string>
+    <string name="salida_zona_insegura">Saliste de la zona insegura</string>
+    <string name="maximo_tiempo_zona_insegura">Has permanecido mucho tiempo en una zona insegura</string>
+    <string name="inicio">Inicio</string>
+    <string name="servicio_alertas_iniciado">Iniciando servicio de Alertas de Seguridad</string>
+</resources>

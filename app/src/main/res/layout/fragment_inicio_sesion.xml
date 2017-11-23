@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="co.ortizol.fragments.InicioSesionFragment">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/pin" />
+
+    <TextView
+        android:id="@+id/lblBievenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:text="@string/bienvenida"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/lblIndicadorInicioSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/indicador_inicio_sesion"
+        android:textSize="17sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sibIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/lbnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        facebook:com_facebook_login_text="Inicio Sesión" />
+
+</LinearLayout>
